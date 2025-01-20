@@ -7,17 +7,14 @@ const Header = () => {
       <nav>
         <ul className="flex gap-4">
           <li>
-            <Link
-              to="/"
-              className="text-2xl hover:underline hover:text-green-300 transition"
-            >
+            <Link to="/" className="text-2xl hover:text-green-400 transition">
               Inventory
             </Link>
           </li>
           <li>
             <Link
               to="/add-book"
-              className="text-2xl hover:underline hover:text-green-300 transition"
+              className="text-2xl hover:text-green-400 transition"
             >
               Add Book
             </Link>

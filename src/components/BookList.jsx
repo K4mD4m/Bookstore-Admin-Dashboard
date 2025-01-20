@@ -61,7 +61,7 @@ const BookList = () => {
   );
 
   return (
-    <div className="p-8 max-w-7xl mx-auto bg-gray-100 rounded-lg shadow-md">
+    <div className="p-8 max-w-7xl mx-auto bg-gray-100 rounded-lg shadow-md mt-4">
       <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
         Book Inventory
       </h2>
